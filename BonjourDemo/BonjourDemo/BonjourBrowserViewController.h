@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  BonjourBrowserViewController.h
 //  BonjourDemo
 //
 //  Created by Victor Chee on 16/5/26.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface BonjourBrowserViewController : UITableViewController
 
 @end
-

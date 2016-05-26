@@ -9,10 +9,13 @@
 /* Begin PBXBuildFile section */
 		F02C998A1CF686D800250D54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F02C99891CF686D800250D54 /* main.m */; };
 		F02C998D1CF686D800250D54 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F02C998C1CF686D800250D54 /* AppDelegate.m */; };
-		F02C99901CF686D800250D54 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F02C998F1CF686D800250D54 /* ViewController.m */; };
 		F02C99931CF686D800250D54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F02C99911CF686D800250D54 /* Main.storyboard */; };
 		F02C99951CF686D800250D54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F02C99941CF686D800250D54 /* Assets.xcassets */; };
 		F02C99981CF686D800250D54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F02C99961CF686D800250D54 /* LaunchScreen.storyboard */; };
+		F02C99A11CF68AE200250D54 /* Bonjour.m in Sources */ = {isa = PBXBuildFile; fileRef = F02C99A01CF68AE200250D54 /* Bonjour.m */; };
+		F02C99A41CF68AF400250D54 /* BonjourBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = F02C99A31CF68AF400250D54 /* BonjourBrowser.m */; };
+		F02C99A71CF68BAC00250D54 /* BonjourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F02C99A61CF68BAC00250D54 /* BonjourViewController.m */; };
+		F02C99AD1CF68BD900250D54 /* BonjourBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F02C99AC1CF68BD900250D54 /* BonjourBrowserViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +23,18 @@
 		F02C99891CF686D800250D54 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F02C998B1CF686D800250D54 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F02C998C1CF686D800250D54 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F02C998E1CF686D800250D54 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F02C998F1CF686D800250D54 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F02C99921CF686D800250D54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F02C99941CF686D800250D54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F02C99971CF686D800250D54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F02C99991CF686D800250D54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F02C999F1CF68AE200250D54 /* Bonjour.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bonjour.h; sourceTree = "<group>"; };
+		F02C99A01CF68AE200250D54 /* Bonjour.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bonjour.m; sourceTree = "<group>"; };
+		F02C99A21CF68AF400250D54 /* BonjourBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BonjourBrowser.h; sourceTree = "<group>"; };
+		F02C99A31CF68AF400250D54 /* BonjourBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BonjourBrowser.m; sourceTree = "<group>"; };
+		F02C99A51CF68BAC00250D54 /* BonjourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BonjourViewController.h; sourceTree = "<group>"; };
+		F02C99A61CF68BAC00250D54 /* BonjourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BonjourViewController.m; sourceTree = "<group>"; };
+		F02C99AB1CF68BD900250D54 /* BonjourBrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BonjourBrowserViewController.h; sourceTree = "<group>"; };
+		F02C99AC1CF68BD900250D54 /* BonjourBrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BonjourBrowserViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +69,14 @@
 			children = (
 				F02C998B1CF686D800250D54 /* AppDelegate.h */,
 				F02C998C1CF686D800250D54 /* AppDelegate.m */,
-				F02C998E1CF686D800250D54 /* ViewController.h */,
-				F02C998F1CF686D800250D54 /* ViewController.m */,
+				F02C99A51CF68BAC00250D54 /* BonjourViewController.h */,
+				F02C99A61CF68BAC00250D54 /* BonjourViewController.m */,
+				F02C99AB1CF68BD900250D54 /* BonjourBrowserViewController.h */,
+				F02C99AC1CF68BD900250D54 /* BonjourBrowserViewController.m */,
+				F02C999F1CF68AE200250D54 /* Bonjour.h */,
+				F02C99A01CF68AE200250D54 /* Bonjour.m */,
+				F02C99A21CF68AF400250D54 /* BonjourBrowser.h */,
+				F02C99A31CF68AF400250D54 /* BonjourBrowser.m */,
 				F02C99911CF686D800250D54 /* Main.storyboard */,
 				F02C99941CF686D800250D54 /* Assets.xcassets */,
 				F02C99961CF686D800250D54 /* LaunchScreen.storyboard */,
@@ -149,9 +164,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F02C99901CF686D800250D54 /* ViewController.m in Sources */,
+				F02C99A41CF68AF400250D54 /* BonjourBrowser.m in Sources */,
 				F02C998D1CF686D800250D54 /* AppDelegate.m in Sources */,
+				F02C99A71CF68BAC00250D54 /* BonjourViewController.m in Sources */,
 				F02C998A1CF686D800250D54 /* main.m in Sources */,
+				F02C99A11CF68AE200250D54 /* Bonjour.m in Sources */,
+				F02C99AD1CF68BD900250D54 /* BonjourBrowserViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
