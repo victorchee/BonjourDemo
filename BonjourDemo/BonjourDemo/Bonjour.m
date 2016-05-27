@@ -49,18 +49,6 @@
     NSLog(@"did not publish: %@", errorDict);
 }
 
-- (void)netServiceWillResolve:(NSNetService *)sender {
-    
-}
-
-- (void)netService:(NSNetService *)sender didNotResolve:(NSDictionary<NSString *, NSNumber *> *)errorDict {
-    
-}
-
-- (void)netServiceDidResolveAddress:(NSNetService *)sender {
-    
-}
-
 - (void)netService:(NSNetService *)sender didUpdateTXTRecordData:(NSData *)data {
     
 }
